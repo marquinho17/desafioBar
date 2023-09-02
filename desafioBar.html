@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="testando.js"></script>
+    <title>Bar da jaqueira</title>
+</head>
+<body>
+
+    <p><strong>O desconto happy hour é para os clientes que chegaram antes das 19:00</strong></p>
+
+    <form>
+        <label>Informe quantos chopps foram bebidos durante a happy hour:</label>
+        <br>
+        <input type="number" id="happy">
+        <br><br>
+        <label>Informe o valor do chopp:</label>
+        <br>
+        <input type="number" id="valor_1">
+        <br><br>
+        <hr>
+        <label>Informe quantos chopps foram bebidos depois da happy hour:</label>
+        <br>
+        <input type="number" id="semhappy">
+        <br><br>
+        <label>Informe o valor do chopp:</label>
+        <br>
+        <input type="number" id="valor_2">
+        <br><br>
+
+        <div id="resultado"></div>
+
+        <input type="submit" onclick="bar()" value="Calcular">
+    </form>
+    
+</body>
+</html>
